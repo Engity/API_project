@@ -1,0 +1,10 @@
+.BanListDisplayer{
+    /* background-color: blue; */
+    float:left;
+    background-color: rgba(8, 0, 255, 0.271); 
+    width:250px;
+    padding:10px;
+    margin:5px;
+    display:block;
+    flex:wrap;
+}

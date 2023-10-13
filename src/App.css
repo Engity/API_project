@@ -1,7 +1,8 @@
 #root {
+    background-image: url('./assets/images/background2.jpg');
     background-size: cover;
     background-blend-mode: darken;
-    max-width: 1280px;
+    max-width: 1800px;
     margin: 0 auto;
     padding: 2rem;
     text-align: center;
@@ -12,8 +13,8 @@
 h1 {
     font-size: 4vh;
     text-align: center;
-    color: burlywood;
-    text-shadow: 3px 3px 10px blue;
+    color: rgb(191, 108, 0);
+    text-shadow: 3px 3px 10px rgba(0, 0, 255, 0.608);
 }
 
 h2 {
@@ -59,6 +60,7 @@ h2 {
     width: auto;
 }
 
+
 .App button:hover,
 .App button:focus {
     background-color: #fb8332;
@@ -76,6 +78,12 @@ h2 {
     transform: translateY(0);
 }
 
+.App #discoverButton {
+    background-color: blue;
+    box-shadow: rgba(255, 123, 0, 0.896) 5px 5px 3px;
+}
+
+
 .correctAnswer{
     color: green;
 }
@@ -84,3 +92,4 @@ h2 {
 .incorrectAnswer{
     color: red;
 }
+
